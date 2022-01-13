@@ -184,7 +184,7 @@ body {
 }
 
 .footer-contacts .link {
-  color: inherit;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;
   text-decoration: none;
@@ -192,6 +192,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-contacts .adress {
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
   color: var(--primary-white-color);
 }
